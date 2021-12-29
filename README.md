@@ -3,6 +3,21 @@
 > Data dir: `./images/` \
 > Result dir: `./out/`
 
+## Requirement
+
+You can install requirement by follow this command:
+
+```sh
+pip3 install PIL numpy numba
+```
+
+If you have `pipenv` to manage your python project environment, then you can follow this command:
+
+```sh
+pipenv install # install venv by following Pipfile.lock
+pipenv shell # active your project venv.
+```
+
 ## Function Introduce
 
 | Function name  |                   Parameter                    | Introdution   |
