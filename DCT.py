@@ -1,7 +1,9 @@
 from PIL import Image
 import numpy as np
+from numba import jit
 
 
+@jit
 def dct_1d(seq: np.ndarray):
     """
     ## 1D-IDCT algorithm
@@ -21,6 +23,7 @@ def dct_1d(seq: np.ndarray):
     return dct_seq
 
 
+@jit
 def idct_1d(seq: np.ndarray):
     """
     ## 1D-IDCT algorithm
