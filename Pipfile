@@ -10,6 +10,7 @@ numba = "*"
 
 [dev-packages]
 black = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.8"
